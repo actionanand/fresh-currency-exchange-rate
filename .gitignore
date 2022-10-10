@@ -17,3 +17,8 @@
 # System Files
 .DS_Store
 Thumbs.db
+
+# deno fresh env files
+.env
+# .env.defaults
+# .env.example

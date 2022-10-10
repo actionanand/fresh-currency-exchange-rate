@@ -1,18 +1,11 @@
-import Counter from "../islands/Counter.tsx";
+import CurrencyConverterForm from '../islands/ConverterForm.tsx';
 
 export default function Home() {
   return (
-    <div class="p-4 mx-auto max-w-screen-md">
-      <img
-        src="/logo.svg"
-        class="w-32 h-32"
-        alt="the fresh logo: a sliced lemon dripping with juice"
-      />
-      <p class="my-6">
-        Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-        file, and refresh.
-      </p>
-      <Counter start={3} />
-    </div>
+    <main class="flex justify-center items-center h-screen">
+      <div class="p-4 max-w-screen-md bg-white shadow-md rounded px-8 pt-6 pb-6">
+        <CurrencyConverterForm></CurrencyConverterForm>
+      </div>
+    </main>
   );
 }

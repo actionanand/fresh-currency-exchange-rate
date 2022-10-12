@@ -20,3 +20,4 @@ This will watch the project directory and restart as necessary.
 6. [Dotenv - deno official](https://deno.land/x/dotenv@v3.2.0)
 7. [Where does `Deno.env` got its data from?](https://stackoverflow.com/questions/61873926/where-does-deno-env-got-its-data-from)
 8. [Tailwind v1](https://v1.tailwindcss.com/docs/text-color)
+9. [Model github for fresh](https://github.com/bitfumes/fresh-deno-framework-course-2022)
